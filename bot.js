@@ -3,6 +3,8 @@ const client = new Discord.Client();
 const client2 = new Discord.Client();
 
 client.on('ready', () => {
+  
+client.user.setGame("Strict.", "https://twitch.tv/idk");
    console.log(`----------------`);
    console.log(`Credit Farmm - Script By : Kahrbaa `);
    console.log(`----------------`);
