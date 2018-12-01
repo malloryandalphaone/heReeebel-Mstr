@@ -3,18 +3,9 @@ const client = new Discord.Client();
 const client2 = new Discord.Client();
 
 client.on('ready', () => {
-  
 client.user.setGame("Reeebel Is Away.", "https://twitch.tv/Reeebel");
 client2.user.setGame("V1.", "https://twitch.tv/Mr447");
-   console.log(`----------------`);
-   console.log(`Script , Reeebel...`);
-   console.log(`----------------`);
-   console.log(`Loadinng`);
-   console.log(`Loadinng.`);
-   console.log(`Loadinng..`);
-   console.log(`Loadinng...`);
-   console.log(`This Bots Online ' `);
-   console.log(`----------------`);
+   console.log(`Ready!`);
 });
 
 
