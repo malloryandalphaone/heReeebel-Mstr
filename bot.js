@@ -4,7 +4,8 @@ const client2 = new Discord.Client();
 
 client.on('ready', () => {
   
-client.user.setGame("Strict.", "https://twitch.tv/idk");
+client.user.setGame("Clan Strict ..", "https://twitch.tv/idk");
+client2.user.setGame("v1.", "https://twitch.tv/idk");
    console.log(`----------------`);
    console.log(`Credit Farmm - Script By : Kahrbaa `);
    console.log(`----------------`);
