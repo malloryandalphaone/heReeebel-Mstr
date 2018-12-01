@@ -4,6 +4,7 @@ const client2 = new Discord.Client();
 
 client.on('ready', () => {
 client.user.setGame("Reeebel Is Away.", "https://twitch.tv/Reeebel");
+client2.user.setGame("V1.", "https://twitch.tv/Reeebel");
    console.log(`Ready!`);
 });
 
